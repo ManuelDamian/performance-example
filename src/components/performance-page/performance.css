@@ -1,0 +1,44 @@
+
+.main-content {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh;
+}
+
+.cardconteiner{
+    display: flex;
+    max-width:740px;
+    border-radius: 35px !important;
+}
+
+.infocontent{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    min-width: 368px;
+    max-width: 375px;
+    min-height: 515px;
+    border-radius: 35px;
+    display: flex;
+}
+
+
+.allinfo{
+    min-width: 368px;
+}
+
+.card-tittle{
+    margin-top: 38px !important;
+}
+
+.actionarea{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+
+
+@media only screen and (max-width: 840px){
+    .cardconteiner {
+        flex-direction: column;
+    }
+}

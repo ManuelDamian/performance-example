@@ -1,0 +1,53 @@
+.ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.Reaction{
+    background: rgba(255, 246, 246);
+    height: 56px;
+    max-width: 288px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center ;
+    margin: 10px;
+    color: #FF5555;
+    ;
+}
+
+.Memory{
+    background:  rgba(255,251,230);
+    height: 56px;
+    max-width: 288px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center ;
+    margin: 10px;
+    color: #FFB21E;
+    ;
+}
+
+.Verbal{
+    background: rgb(242, 252, 249);
+    height: 56px;
+    max-width: 288px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center ;
+    margin: 10px;
+    color: #00BB8F;
+    ;
+}
+
+.Visual{
+    background: rgb(243, 244, 253);
+    height: 56px;
+    max-width: 288px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center ;
+    margin: 10px;
+    color: #1125D6;
+    ;
+}
+

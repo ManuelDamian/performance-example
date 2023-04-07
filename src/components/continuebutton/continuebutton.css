@@ -1,0 +1,15 @@
+.continue-button {
+    height: 56px;
+    width: 288px;
+    border-radius: 128px;
+    background: #303B59;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.continue-button:hover {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
