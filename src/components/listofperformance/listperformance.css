@@ -1,6 +1,6 @@
-.ul {
+ul {
     list-style: none;
-    padding: 20px;
+    padding-inline-start: 15px !important;
 }
 
 .Reaction{
@@ -12,7 +12,18 @@
     align-items: center ;
     margin: 10px;
     color: #FF5555;
-    ;
+    font-family: 'Hanken Grotesk', sans-serif;
+    flex: 1 0 50%;
+}
+
+.rayoiconconteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rayoicon{
+    margin: 20px;
 }
 
 .Memory{
@@ -24,7 +35,17 @@
     align-items: center ;
     margin: 10px;
     color: #FFB21E;
-    ;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.brainiconcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brainicon{
+    margin: 20px;
 }
 
 .Verbal{
@@ -36,8 +57,19 @@
     align-items: center ;
     margin: 10px;
     color: #00BB8F;
-    ;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
+
+.chaticoncontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chaticon{
+    margin: 20px;
+}
+
 
 .Visual{
     background: rgb(243, 244, 253);
@@ -48,6 +80,43 @@
     align-items: center ;
     margin: 10px;
     color: #1125D6;
-    ;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-style: medium !important;
 }
 
+
+.eyeiconcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eyeicon{
+    margin: 20px;
+}
+
+.calification-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.valorcambiante{
+    margin-right: 10px;
+    color: black;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.valorneutro{
+    margin-right: 10px;
+    font-size: 18px;
+    color: #303B59;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bold;
+    opacity: .5;
+}

@@ -1,0 +1,50 @@
+.mediacontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yresult{
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif !important;
+    opacity: .6;
+    size: 24px;
+    
+}
+
+.circle{
+    width: 200px !important;
+    height: 200px !important;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.principalnumber{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 72px;
+    margin: none;
+}
+
+.restnumbers{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    opacity: .7;
+    margin: none;
+}
+
+.gtitle{
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif !important; 
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.mainmessage{
+    font-family: 'Hanken Grotesk', sans-serif !important; 
+    color: white;
+    opacity: .7;
+    width: 60%;
+}

@@ -2,6 +2,7 @@ import { Card, CardActions, CardMedia, Container, Typography } from "@mui/materi
 import CardContent from "@mui/material/CardContent";
 import Listper from "../listofperformance/listperformance";
 import Continueb from "../continuebutton/continuebutton";
+import Allcontent from "../maincardcontent/allcontent";
 import "./performance.css";
 
 const performance = () => {
@@ -9,11 +10,11 @@ const performance = () => {
         <Container className="main-content">
             <Card className="cardconteiner" >
                 <CardMedia className="infocontent">
-                    <span>Hola</span>
+                    <Allcontent/>
                 </CardMedia>
                 <div className="allinfo">
                     <CardContent className="contentarea">
-                        <Typography className="card-tittle" variant="h5" component="div">
+                        <Typography className="card-tittle" variant="h4" component="div">
                             Summary
                         </Typography>
                         <Listper/>
